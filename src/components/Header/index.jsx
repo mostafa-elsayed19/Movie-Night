@@ -55,7 +55,7 @@ export default function Header() {
 								Todos
 							</NavLink>
 						</li> */}
-						<li>
+						{/* <li>
 							<NavLink
 								to="/login"
 								className={({ isActive }) =>
@@ -74,7 +74,7 @@ export default function Header() {
 							>
 								Register
 							</NavLink>
-						</li>
+						</li> */}
 						{favoriteMovies.length > 0 ? (
 							<li className="text-white ms-3 d-flex align-items-center justify-content-between">
 								<FaStar

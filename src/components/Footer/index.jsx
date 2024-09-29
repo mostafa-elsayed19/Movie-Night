@@ -5,11 +5,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer() {
 	return (
-		<Navbar
-			bg="dark"
-			data-bs-theme="dark"
-			className=" py-3 mt-4 border-top"
-		>
+		<Navbar bg="dark" data-bs-theme="dark" className=" py-3 mt-4 border-top">
 			<div className="container">
 				<div className="d-flex w-100 flex-wrap justify-content-between align-items-center">
 					<p className="col-md-4 mb-0 text-body-secondary">
@@ -44,7 +40,7 @@ export default function Footer() {
 								Favorites
 							</NavLink>
 						</li>
-						<li>
+						{/* <li>
 							<NavLink
 								to="/login"
 								className={`text-decoration-none text-white `}
@@ -59,7 +55,7 @@ export default function Footer() {
 							>
 								Register
 							</NavLink>
-						</li>
+						</li> */}
 					</nav>
 				</div>
 			</div>
